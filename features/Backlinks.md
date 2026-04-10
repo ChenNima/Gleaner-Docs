@@ -2,7 +2,7 @@
 
 # Backlinks
 
-Backlinks are one of Gleaner's core features, enabling bidirectional navigation between Markdown files. Gleaner tracks both wikilinks and standard markdown links to build a comprehensive link index.
+Gleaner tracks both wikilinks and standard markdown links to build a link index, enabling bidirectional navigation between Markdown files.
 
 ## Wikilink Syntax
 

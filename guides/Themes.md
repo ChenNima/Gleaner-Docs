@@ -2,16 +2,16 @@
 
 # Themes
 
-Gleaner offers multiple Markdown rendering themes that change how your documents look. Each theme provides a different reading experience tailored to specific preferences.
+Gleaner offers multiple Markdown rendering themes that change how your documents look.
 
 ## Available Themes
 
 | Theme | Description |
 |-------|-------------|
-| **GitHub** | Clean, familiar styling based on GitHub's Markdown rendering. Good default choice. |
-| **Obsidian** | Styling inspired by the Obsidian note-taking app. Compact with distinctive heading styles. |
-| **Academic** | Serif fonts with generous spacing, optimized for long-form reading of research-oriented content. |
-| **Notion** | Minimal, modern styling inspired by Notion's clean aesthetic. |
+| **GitHub** | Clean styling based on GitHub's Markdown rendering. The default theme. |
+| **Obsidian** | Styling similar to the Obsidian note-taking app. Compact layout with distinctive heading styles. |
+| **Academic** | Serif fonts with generous spacing, suited for long-form research content. |
+| **Notion** | Minimal, modern styling similar to Notion. |
 | **Newsprint** | Classic print-style typography with a warm, paper-like feel. |
 
 ## Switching Themes

@@ -29,6 +29,6 @@ Once sync completes, the file tree appears in the left sidebar. Click any `.md` 
 
 - Learn how [Backlinks](../features/Backlinks.md) connect your notes
 - Use [Cmd+K Search](../features/Search.md) to quickly find content
-- Explore the [Knowledge Graph](../features/Knowledge%20Graph.md) to discover relationships
+- View connections between notes in the [Knowledge Graph](../features/Knowledge%20Graph.md)
 - Need multiple repos? See [Multi-Repo](../features/Multi-Repo.md)
 - Want faster syncing? Configure a [GitHub Token](../advanced/GitHub%20Token.md)

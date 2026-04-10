@@ -2,7 +2,7 @@
 
 # File Browsing
 
-Gleaner uses a three-column layout inspired by Obsidian, providing a familiar experience for navigating and reading Markdown files.
+Gleaner uses a three-column layout similar to Obsidian for navigating and reading Markdown files.
 
 ## Layout Overview
 

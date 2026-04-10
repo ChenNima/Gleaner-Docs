@@ -29,6 +29,6 @@
 
 - 了解 [双向链接](../features/Backlinks.zh.md) 如何连接你的笔记
 - 用 [Cmd+K 搜索](../features/Search.zh.md) 快速找到你要的内容
-- 探索 [知识图谱](../features/Knowledge%20Graph.zh.md) 发现笔记之间的关系
+- 查看 [知识图谱](../features/Knowledge%20Graph.zh.md) 中笔记之间的关系
 - 需要接入多个仓库？看看 [多仓库管理](../features/Multi-Repo.zh.md)
 - 想提升同步速度？配置 [GitHub Token](../advanced/GitHub%20Token.zh.md)

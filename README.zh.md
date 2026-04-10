@@ -2,9 +2,9 @@
 
 # Gleaner 使用文档
 
-Gleaner 是一个基于 GitHub 的只读知识库阅读器，灵感来自 [Obsidian](https://obsidian.md)。它让你可以直接在浏览器中阅读 GitHub 仓库里的 Markdown 文件，支持 `[[双向链接]]`、知识图谱和多仓库管理。
+Gleaner 在浏览器中直接阅读 GitHub 仓库的 Markdown 文件，支持 `[[双向链接]]`、知识图谱和多仓库聚合。
 
-> 无需后端，纯前端 SPA，数据缓存在浏览器 IndexedDB 中。
+> 纯前端，无后端依赖，数据缓存在浏览器 IndexedDB 中。
 
 ---
 
@@ -42,6 +42,4 @@ Gleaner 是一个基于 GitHub 的只读知识库阅读器，灵感来自 [Obsid
 
 ## 这份文档本身
 
-这份文档存放在 GitHub 仓库 [ChenNima/Gleaner-Docs](https://github.com/ChenNima/Gleaner-Docs) 中，你可以直接用 Gleaner 来阅读它。文档之间大量互相引用，是体验 Gleaner [双向链接](./features/Backlinks.zh.md) 和 [知识图谱](./features/Knowledge%20Graph.zh.md) 功能的绝佳示例。
-
-试试在右侧面板查看本文的反向链接，或者打开 [知识图谱](./features/Knowledge%20Graph.zh.md) 看看文档之间的关系网络。
+这份文档本身就托管在 GitHub 仓库 [ChenNima/Gleaner-Docs](https://github.com/ChenNima/Gleaner-Docs)，可以用 Gleaner 打开。文档之间有大量互相引用，右侧面板可以查看反向链接，[知识图谱](./features/Knowledge%20Graph.zh.md) 页面可以看到整体的关系网络。

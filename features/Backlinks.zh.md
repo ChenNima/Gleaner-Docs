@@ -2,7 +2,7 @@
 
 # 双向链接
 
-双向链接是 Gleaner 的核心功能之一，实现了 Markdown 文件之间的双向导航。Gleaner 同时追踪 wikilinks 和标准 Markdown 链接，构建完整的链接索引。
+Gleaner 追踪 wikilinks 和标准 Markdown 链接，构建完整的链接索引，支持文件之间的双向导航。
 
 ## Wikilink 语法
 

@@ -2,9 +2,9 @@
 
 # Gleaner Documentation
 
-Gleaner is a read-only knowledge base reader built on GitHub, inspired by [Obsidian](https://obsidian.md). It lets you browse Markdown files from GitHub repositories directly in your browser, with support for `[[wikilinks]]`, a knowledge graph, and multi-repo management.
+Gleaner reads Markdown files from GitHub repositories directly in the browser, with support for `[[wikilinks]]`, a knowledge graph, and multi-repo aggregation.
 
-> No backend required — pure frontend SPA, data cached in browser IndexedDB.
+> Pure frontend, no backend — data cached in browser IndexedDB.
 
 ---
 
@@ -42,6 +42,4 @@ Gleaner is a read-only knowledge base reader built on GitHub, inspired by [Obsid
 
 ## About This Documentation
 
-This documentation lives in a GitHub repository ([ChenNima/Gleaner-Docs](https://github.com/ChenNima/Gleaner-Docs)), and you can read it using Gleaner itself. The docs cross-reference each other extensively, making it a great example for experiencing Gleaner's [backlink](./features/Backlinks.md) and [knowledge graph](./features/Knowledge%20Graph.md) features.
-
-Try opening the right panel to see this page's backlinks, or open the [Knowledge Graph](./features/Knowledge%20Graph.md) to explore the relationship network.
+This documentation is hosted on GitHub ([ChenNima/Gleaner-Docs](https://github.com/ChenNima/Gleaner-Docs)) and can be opened with Gleaner. The docs cross-reference each other heavily — the right panel shows backlinks for the current page, and the [Knowledge Graph](./features/Knowledge%20Graph.md) page shows the full relationship network.

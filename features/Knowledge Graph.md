@@ -2,7 +2,7 @@
 
 # Knowledge Graph
 
-The Knowledge Graph provides a force-directed visualization of all files and their connections across your synced repositories. It is one of the most powerful ways to understand the structure of your knowledge base.
+The Knowledge Graph displays all files and their connections across your synced repositories as a force-directed graph.
 
 ## Global Graph
 
@@ -34,7 +34,7 @@ In addition to the global graph page, a **local graph** is available in the righ
 - All files within 1 degree of connection (files that link to or are linked from the current file)
 - The edges between those files
 
-This is useful for quickly understanding a file's immediate context without navigating away.
+The local graph shows a file's immediate context without navigating away from the page.
 
 ## Use Cases
 
@@ -42,7 +42,7 @@ This is useful for quickly understanding a file's immediate context without navi
 |------|-------------------|
 | Find isolated notes | Look for nodes with no edges — these files have no links to or from other files |
 | Identify hub documents | Large, highly connected nodes are key reference documents |
-| Discover paths | Trace edges between nodes to find how two topics relate |
+| Trace paths | Follow edges between nodes to see how two topics relate |
 | Get a repo overview | Color coding shows how content is distributed across repositories |
 
 ---

@@ -2,7 +2,7 @@
 
 # Profiles
 
-Profiles let you maintain multiple configurations in Gleaner, each with its own set of repositories and settings. This is useful for organizing different knowledge bases or sharing configurations across devices.
+Profiles let you maintain multiple configurations in Gleaner, each with its own set of repositories and settings.
 
 ## Profile Types
 
