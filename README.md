@@ -1,45 +1,47 @@
-# Gleaner 使用文档
+[中文](./README.zh.md) | **English**
 
-Gleaner 是一个基于 GitHub 的只读知识库阅读器，灵感来自 [Obsidian](https://obsidian.md)。它让你可以直接在浏览器中阅读 GitHub 仓库里的 Markdown 文件，支持 `[[双向链接]]`、知识图谱和多仓库管理。
+# Gleaner Documentation
 
-> 无需后端，纯前端 SPA，数据缓存在浏览器 IndexedDB 中。
+Gleaner is a read-only knowledge base reader built on GitHub, inspired by [Obsidian](https://obsidian.md). It lets you browse Markdown files from GitHub repositories directly in your browser, with support for `[[wikilinks]]`, a knowledge graph, and multi-repo management.
 
----
-
-## 快速导航
-
-### 入门
-
-- [[快速开始]] — 5 分钟上手 Gleaner
-- [[安装与部署]] — 自托管部署指南
-- [[首次配置]] — 添加你的第一个仓库
-
-### 核心功能
-
-- [[文件浏览]] — 左侧边栏文件树与 Markdown 阅读
-- [[双向链接]] — Wikilink 语法与反向链接面板
-- [[知识图谱]] — 全局与局部关系可视化
-- [[全局搜索]] — Cmd+K 快速查找文件
-- [[多仓库管理]] — 同时接入多个 GitHub 仓库
-
-### 使用指南
-
-- [[配置文件管理]] — Profile 切换与 YAML 配置
-- [[文档主题]] — 切换 Markdown 渲染主题
-- [[多语言]] — 中英文界面切换
-- [[快捷键]] — 键盘操作速查
-
-### 进阶
-
-- [[仓库高级配置]] — 分支选择、版本锁定、路径过滤
-- [[GitHub Token 配置]] — 提升 API 限额与访问私有仓库
-- [[代理配置]] — 为网络受限地区配置 GitHub API 代理
-- [[技术架构]] — 了解 Gleaner 的内部工作原理
+> No backend required — pure frontend SPA, data cached in browser IndexedDB.
 
 ---
 
-## 这份文档本身
+## Quick Navigation
 
-这份文档就存放在一个 GitHub 仓库中（[ChenNima/Gleaner-Docs](https://github.com/ChenNima/Gleaner-Docs)），你可以直接用 Gleaner 来阅读它。文档中大量使用了 `[[wikilinks]]` 互相引用，是体验 Gleaner 双向链接和知识图谱功能的绝佳示例。
+### Getting Started
 
-试试在右侧面板查看本文的 [[双向链接]]，或者打开 [[知识图谱]] 看看文档之间的关系网络。
+- [Quick Start](./getting-started/Quick%20Start.md) — Get up and running in 5 minutes
+- [Installation](./getting-started/Installation.md) — Self-hosting deployment guide
+- [First Setup](./getting-started/First%20Setup.md) — Add your first repository
+
+### Core Features
+
+- [File Browsing](./features/File%20Browsing.md) — Sidebar file tree and Markdown reading
+- [Backlinks](./features/Backlinks.md) — Wikilink syntax and backlink panel
+- [Knowledge Graph](./features/Knowledge%20Graph.md) — Global and local relationship visualization
+- [Search](./features/Search.md) — Cmd+K quick file search
+- [Multi-Repo](./features/Multi-Repo.md) — Connect multiple GitHub repositories
+
+### Guides
+
+- [Profiles](./guides/Profiles.md) — Profile switching and YAML configuration
+- [Themes](./guides/Themes.md) — Switch Markdown rendering themes
+- [i18n](./guides/i18n.md) — Chinese/English interface toggle
+- [Shortcuts](./guides/Shortcuts.md) — Keyboard shortcut reference
+
+### Advanced
+
+- [Repo Config](./advanced/Repo%20Config.md) — Branch selection, commit pinning, path filtering
+- [GitHub Token](./advanced/GitHub%20Token.md) — Increase API rate limits and access private repos
+- [Proxy Setup](./advanced/Proxy%20Setup.md) — Configure GitHub API proxy for restricted regions
+- [Architecture](./advanced/Architecture.md) — Understand how Gleaner works under the hood
+
+---
+
+## About This Documentation
+
+This documentation lives in a GitHub repository ([ChenNima/Gleaner-Docs](https://github.com/ChenNima/Gleaner-Docs)), and you can read it using Gleaner itself. The docs cross-reference each other extensively, making it a great example for experiencing Gleaner's [backlink](./features/Backlinks.md) and [knowledge graph](./features/Knowledge%20Graph.md) features.
+
+Try opening the right panel to see this page's backlinks, or open the [Knowledge Graph](./features/Knowledge%20Graph.md) to explore the relationship network.
