@@ -1,3 +1,5 @@
+[中文](./Wikilink%20Syntax.zh.md) | **English**
+
 # Wikilink Syntax Reference
 
 This page documents all supported `[[wikilink]]` syntax and uses real wikilinks to demonstrate each feature.
