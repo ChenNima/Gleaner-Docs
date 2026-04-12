@@ -54,7 +54,7 @@ If you have multiple repos synced, wikilinks resolve across repos:
 
 ## Unresolved Links
 
-- [[NonExistent Page]] — this should show as unresolved (different style)
+- [[NonExistent Page]] — this should show as unresolved (gray + dashed underline)
 - [[Also Does Not Exist|broken link]] — unresolved with alias
 
 ## Edge Cases
