@@ -46,9 +46,15 @@ $$\begin{pmatrix} a & b \\ c & d \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatr
 
 $$\frac{d}{dx}\left[\int_0^x f(t)\,dt\right] = f(x)$$
 
-### 超长公式
+### 超长公式（行内风格）
 
 $$\mathcal{L}_{\text{total}} = \underbrace{-\frac{1}{4}F_{\mu\nu}F^{\mu\nu}}_{\text{gauge}} + \underbrace{\bar{\psi}(i\gamma^\mu D_\mu - m)\psi}_{\text{fermion}} + \underbrace{(D_\mu\phi)^\dagger(D^\mu\phi) - V(\phi)}_{\text{scalar}} + \underbrace{\lambda_y \bar{\psi}_L \phi \psi_R + \text{h.c.}}_{\text{Yukawa}} + \underbrace{\theta\frac{g^2}{32\pi^2}F_{\mu\nu}\tilde{F}^{\mu\nu}}_{\text{topological}} + \underbrace{\frac{1}{16\pi G}\int d^4x\sqrt{-g}\,R}_{\text{gravity}}$$
+
+### 超长公式（块级风格）
+
+$$
+\mathcal{L}_{\text{total}} = \underbrace{-\frac{1}{4}F_{\mu\nu}F^{\mu\nu}}_{\text{gauge}} + \underbrace{\bar{\psi}(i\gamma^\mu D_\mu - m)\psi}_{\text{fermion}} + \underbrace{(D_\mu\phi)^\dagger(D^\mu\phi) - V(\phi)}_{\text{scalar}} + \underbrace{\lambda_y \bar{\psi}_L \phi \psi_R + \text{h.c.}}_{\text{Yukawa}} + \underbrace{\theta\frac{g^2}{32\pi^2}F_{\mu\nu}\tilde{F}^{\mu\nu}}_{\text{topological}} + \underbrace{\frac{1}{16\pi G}\int d^4x\sqrt{-g}\,R}_{\text{gravity}}
+$$
 
 ## 代码块不受影响
 

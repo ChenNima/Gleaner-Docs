@@ -46,9 +46,15 @@ Inline Greek letters work naturally: $\alpha$, $\beta$, $\gamma$, $\delta$, $\ep
 
 $$\frac{d}{dx}\left[\int_0^x f(t)\,dt\right] = f(x)$$
 
-### Extra-Long Formula
+### Extra-Long Formula (Inline Style)
 
 $$\mathcal{L}_{\text{total}} = \underbrace{-\frac{1}{4}F_{\mu\nu}F^{\mu\nu}}_{\text{gauge}} + \underbrace{\bar{\psi}(i\gamma^\mu D_\mu - m)\psi}_{\text{fermion}} + \underbrace{(D_\mu\phi)^\dagger(D^\mu\phi) - V(\phi)}_{\text{scalar}} + \underbrace{\lambda_y \bar{\psi}_L \phi \psi_R + \text{h.c.}}_{\text{Yukawa}} + \underbrace{\theta\frac{g^2}{32\pi^2}F_{\mu\nu}\tilde{F}^{\mu\nu}}_{\text{topological}} + \underbrace{\frac{1}{16\pi G}\int d^4x\sqrt{-g}\,R}_{\text{gravity}}$$
+
+### Extra-Long Formula (Block Style)
+
+$$
+\mathcal{L}_{\text{total}} = \underbrace{-\frac{1}{4}F_{\mu\nu}F^{\mu\nu}}_{\text{gauge}} + \underbrace{\bar{\psi}(i\gamma^\mu D_\mu - m)\psi}_{\text{fermion}} + \underbrace{(D_\mu\phi)^\dagger(D^\mu\phi) - V(\phi)}_{\text{scalar}} + \underbrace{\lambda_y \bar{\psi}_L \phi \psi_R + \text{h.c.}}_{\text{Yukawa}} + \underbrace{\theta\frac{g^2}{32\pi^2}F_{\mu\nu}\tilde{F}^{\mu\nu}}_{\text{topological}} + \underbrace{\frac{1}{16\pi G}\int d^4x\sqrt{-g}\,R}_{\text{gravity}}
+$$
 
 ## Code Blocks Are Not Affected
 
